@@ -11,5 +11,4 @@ object SparkInitializer {
       .setMaster(master)
     new SparkContext(conf)
   }
-
 }
