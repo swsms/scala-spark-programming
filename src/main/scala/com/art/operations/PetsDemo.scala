@@ -1,4 +1,4 @@
-package com.art.transformations
+package com.art.operations
 
 import com.art.SparkInitializer
 import org.apache.spark.SparkContext
