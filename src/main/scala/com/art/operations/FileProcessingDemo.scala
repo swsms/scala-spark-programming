@@ -7,7 +7,7 @@ object FileProcessingDemo extends App {
 
   val sc: SparkContext = SparkInitializer.init("file-processing-demo")
 
-  val text = sc.textFile(FileLoader.pathToFile)
+  val text = sc.textFile(FileLoader.pathToFile("latin.txt"))
 
   val result = text.flatMap(line => line.split(""))
     .filter(ch => ch >= "A" && ch <= "z")
