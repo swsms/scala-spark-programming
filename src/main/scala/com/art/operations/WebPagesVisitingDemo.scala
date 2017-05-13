@@ -5,7 +5,7 @@ import org.apache.spark.SparkContext
 
 object WebPagesVisitingDemo extends App {
 
-  val sc: SparkContext = SparkInitializer.init("numbers-processing-demo")
+  val sc: SparkContext = SparkInitializer.init("web-pages-visiting-demo")
 
   val visits = sc.parallelize(Seq(
     ("index.html", "1.2.3.4"),
