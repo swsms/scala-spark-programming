@@ -1,0 +1,7 @@
+2017-05-13 20:18:17 INFO john https://google.com
+2017-05-13 22:35:13 INFO mark https://google.com
+2017-05-14 08:05:00 ERROR john https://github.com
+2017-05-14 12:01:00 INFO mark https://github.com
+2017-05-14 15:05:55 INFO liza https://github.com
+2017-05-14 19:19:18 ERROR liza https://www.coursera.org
+2017-05-14 22:21:00 ERROR mark https://google.com

@@ -1,0 +1,3 @@
+https://google.com Google
+https://github.com Github
+https://www.coursera.org Coursera
