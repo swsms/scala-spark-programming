@@ -8,7 +8,7 @@ object JoiningLogEntryAndWebSitesDemo extends App {
 
   case class WebSite(name: String, url: String)
 
-  val sc = SparkInitializer.init("joining-users-and-urls-demo")
+  val sc = SparkInitializer.init("joining-log-entry-and-sites-demo")
 
   private def loadLogEntry(entry: String): LogEntry = {
     val pair = entry.split("\\s+")
